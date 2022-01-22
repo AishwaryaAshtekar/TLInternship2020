@@ -28,7 +28,6 @@ Values: actual url paths.
     1.5) For video also do some compilation.
     1.6) Initialize file_name variable with file path in our case it's
     "https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2020-16/segments/1585370490497.6/warc/CC-MAIN-20200328074047-20200328104047-00000.warc.gz"
-
     1.7) Now everything would be in try block. If having some exception then print it and stop.
     1.8) Using get_data_in_stream (Details in 3rd point)method get stream data. Input parameter for the method is file_name
     1.9) create empty list for output i.e.final_url_output
